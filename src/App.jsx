@@ -2,9 +2,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
 import { ThemeProvider } from "styled-components"
 
-import { GlobalStyle } from "./styles/global.js"
+
 import { Home } from "./pages/Home"
 import { theme } from "./styles/theme.js"
+import { GlobalStyle } from "./styles/global.js"
 
 const router = createBrowserRouter([
     {
